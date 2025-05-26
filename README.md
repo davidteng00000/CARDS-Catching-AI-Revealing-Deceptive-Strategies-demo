@@ -240,7 +240,7 @@ The poster mentions a "Deceptive Intention Accuracy: 100%" under certain conditi
 
 * Chi-Hsiang Chao (samuelchao@g.ncu.edu.tw)
 * Hsin-Fu Chang (xuanchang@g.ncu.edu.tw)
-* Po-Yuan Teng (davidteng0000@gmail.com)
+* Po-Yuan Teng (davidteng00000@gmail.com)
 * Chiao-Jou Chang (s111502536@g.ncu.edu.tw)
 
 ## Further Information
