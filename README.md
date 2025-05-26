@@ -77,11 +77,6 @@ Key strategic considerations for the LLMs include making persuasive statements t
 
 > ![pipeline](https://github.com/user-attachments/assets/22698388-8c18-491d-936e-3790916c678f)
 
-
-## System Prompts (Reference)
-
-The interaction between the LLMs and the game system is guided by specific system prompts for game start, speaking turns, and decision-making. These prompts are designed to elicit the desired behaviors and gather data in a structured format. Full details of these prompts, including the JSON structures required for LLM responses, are available in the [./PROMPTS.md](./PROMPTS.md) file in this repository.
-
 ## Experimental Design and Methodology
 
 The study employed a diverse set of LLMs and experimental setups to investigate deceptive behaviors.
@@ -229,7 +224,5 @@ This counterintuitive pattern is a significant observation, suggesting that the 
 * Chiao-Jou Chang (s111502536@g.ncu.edu.tw)
 
 ## Further Information
-
-**PROMPTS.md**: For detailed system prompts used in the "Big or Small" game, including game rules, speaking phase instructions, decision phase instructions, and the JSON formats for LLM responses, please refer to the [./PROMPTS.md](./PROMPTS.md) file in this repository.
 
 **Future Publications**: Future publications or full project details, if they become publicly available, will be linked here.
