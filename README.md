@@ -1,5 +1,4 @@
 ![Status](https://img.shields.io/badge/status-demo-blue)
-![License](https://img.shields.io/badge/license-CC--BY--NC--SA-orange)
 ![LLMs](https://img.shields.io/badge/models-GPT--4o%2C%20TWLlama%2C%20Breeze-success)
 
 
