@@ -4,6 +4,41 @@ This repository serves as a comprehensive demonstration and explanation of the C
 
 The CARDS project offers an experimental framework for investigating, detecting, and classifying deceptive intentions and hallucinatory behaviors in Large Language Models (LLMs) through a strategic card game.
 
+## Table of Contents
+
+- [Project Synopsis: The CARDS Initiative](#project-synopsis-the-cards-initiative)
+- [Defining the Terrain: Deception and Hallucination in LLMs](#defining-the-terrain-deception-and-hallucination-in-llms)
+  - [Deception Defined](#deception-defined)
+  - [Hallucination Categorized](#hallucination-categorized)
+  - [The Interplay](#the-interplay)
+- [The "Big or Small" Game: A Crucible for Deceptive AI](#the-big-or-small-game-a-crucible-for-deceptive-ai)
+  - [Game Initialization and Core Objective](#game-initialization-and-core-objective)
+  - [Detailed Game Flow](#detailed-game-flow)
+    - [Speaking Phase](#speaking-phase)
+    - [Consensus Phase](#consensus-phase)
+    - [Comparison Phase (Reveal and Compare)](#comparison-phase-reveal-and-compare)
+  - [Strategic Deception within the Game](#strategic-deception-within-the-game)
+- [Experimental Design and Methodology](#experimental-design-and-methodology)
+  - [LLMs Under Investigation](#llms-under-investigation)
+  - [Experimental Setups and Lying Probability](#experimental-setups-and-lying-probability)
+  - [Data Collection and Annotation](#data-collection-and-annotation)
+- [The CARDS Deception Classifier](#the-cards-deception-classifier)
+  - [Objective](#objective)
+  - [Approach](#approach)
+  - [Potential Application](#potential-application)
+- [Key Experimental Findings and Analysis](#key-experimental-findings-and-analysis)
+  - [A. LLM Prowess in Deception](#a-llm-prowess-in-deception)
+  - [B. Comparative Game Performance](#b-comparative-game-performance)
+  - [C. Hallucination Patterns](#c-hallucination-patterns)
+  - [D. Classifier Efficacy](#d-classifier-efficacy)
+  - [E. Qualitative Observations and Model-Specific Behaviors](#e-qualitative-observations-and-model-specific-behaviors)
+- [Core Contributions and Implications](#core-contributions-and-implications)
+  - [Summary of Contributions](#summary-of-contributions)
+  - [Broader Implications](#broader-implications)
+- [Project Team](#project-team)
+- [Further Information](#further-information)
+
+
 ## Project Synopsis: The CARDS Initiative
 
 The CARDS project undertakes the challenge of systematically developing and evaluating a methodology to identify and categorize deceptive intentions versus unintentional hallucinations in Large Language Models. This research is motivated by the increasing sophistication of LLMs and the critical need to understand their capacity for strategic communication, including potentially misleading behaviors. The work contributes to the broader understanding and detection of strategic behavior in multi-agent interactions, with a specific focus on "lies" and hallucinations exhibited by LLMs. Such understanding is pivotal as LLMs become more integrated into complex decision-making systems where trustworthiness and reliability are paramount.  
