@@ -1,3 +1,8 @@
+![Status](https://img.shields.io/badge/status-demo-blue)
+![License](https://img.shields.io/badge/license-CC--BY--NC--SA-orange)
+![LLMs](https://img.shields.io/badge/models-GPT--4o%2C%20TWLlama%2C%20Breeze-success)
+
+
 # CARDS-Catching-AI-Revealing-Deceptive-Strategies-demo
 
 This repository serves as a comprehensive demonstration and explanation of the CARDS (Catching AI Revealing Deceptive Strategies) project. Due to team agreements, the original source code cannot be publicly shared. This README, along with supplementary materials, details the project's objectives, methodology, experiments, and key findings in lieu of the codebase.
