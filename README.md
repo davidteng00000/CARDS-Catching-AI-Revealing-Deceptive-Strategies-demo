@@ -18,8 +18,6 @@ The CARDS project offers an experimental framework for investigating, detecting,
 - [The CARDS Deception Classifier](#the-cards-deception-classifier)
 - [Key Experimental Findings and Analysis](#key-experimental-findings-and-analysis)
 - [Core Contributions and Implications](#core-contributions-and-implications)
-- [Project Team](#project-team)
-- [Further Information](#further-information)
 
 
 ## Project Synopsis: The CARDS Initiative
