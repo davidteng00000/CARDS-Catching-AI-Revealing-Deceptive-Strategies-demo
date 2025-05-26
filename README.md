@@ -75,7 +75,8 @@ A crucial element of the "Big or Small" game is the explicit incorporation of de
 
 Key strategic considerations for the LLMs include making persuasive statements to influence the opponent, being aware that the opponent may also be deceptive, and managing their strategy within the 5-round limit to achieve consensus and win. The game design, particularly the removal of prompts from memory, tests an LLM's ability to maintain a consistent persona or strategy (truthful or deceptive) based on prior interactions and its understanding of the game state, rather than solely relying on the immediate instruction. This setup provides a more dynamic and arguably more ecologically valid test of LLM reasoning and strategic communication than simple question-answering tasks.  
 
-> (To visually illustrate the game mechanics, please refer to the 'Game Start' / 'Game Rules' flow diagram, typically found on the right-hand side of the CARDS_Poster_final.pdf. You would insert a screenshot of that diagram here.)
+> ![pipeline](https://github.com/user-attachments/assets/22698388-8c18-491d-936e-3790916c678f)
+
 
 ## System Prompts (Reference)
 
@@ -175,18 +176,10 @@ While GPT-4o was the most effective deceiver (Table 1, Part 1), its win rates we
 
 The study investigated hallucination rates and their relationship with deceptive intent. A general trend observed was that hallucination rates correlated with model capability, with more advanced models typically exhibiting lower baseline hallucination rates.
 
-> (Please insert a screenshot of the graph titled 'Hallucination Rate between Different Models with or without Deceptive Intention' from CARDS_Poster_final.pdf here.)
+> ![image](https://github.com/user-attachments/assets/8c31033c-f248-45b3-beea-d6aede739014)
+
 
 **IMAGE 1: Hallucination Rate between Different Models with or without Deceptive Intention**
-
-**Table 2: Approximate Hallucination Rate (%) by Deceptive Intent**
-
-| Model           | With Deception (%) | Without Deception (%) |
-|------------------|--------------------|--------------------------|
-| gpt-4o           | ~3%                | ~2%                     |
-| gpt-4o-mini      | ~9%                | ~8%                     |
-| gpt-3.5-turbo    | ~13%               | ~21%                    |
-| breeze           | ~9%                | ~12%                    |
 
 A particularly nuanced finding emerged from this data:
 
@@ -199,19 +192,11 @@ This counterintuitive pattern is a significant observation, suggesting that the 
 
 **Accuracy:**
 
-The poster mentions a "Deceptive Intention Accuracy: 100%" under certain conditions, although these specific conditions are not detailed.
+![image](https://github.com/user-attachments/assets/1173bfe5-97de-4c6d-810f-4082000b7ef3)
 
-**Table 3: Classifier Accuracy Highlights (Layer 28, Unbalanced Data Averages)**
+**Table 2: Classifier Accuracy Highlights (Layer 28, Unbalanced Data Averages)**
 
-| Metric (Layer 28)                                | Accuracy   |
-|--------------------------------------------------|------------|
-| Both AVG (Intent & Hallucination State Classification) | 60.9%      |
-| Hallucination AVG (Hallucination State Classification) | 61.79%     |
-| Deceptive Intention (Specific Condition)              | 100%*      |
-
-\*Note: The 100% Deceptive Intention Accuracy is reported but its precise context is not fully specified.
-
-> (Please insert a screenshot of the 'Confusion Matrix of Classifier (layer 28, all data)' from CARDS_Poster_final.pdf here.)
+![image](https://github.com/user-attachments/assets/63571542-d2f5-48d2-aa5c-72a1525acabb)
 
 **IMAGE 2: Confusion Matrix of Classifier (layer 28, all data)**
 
